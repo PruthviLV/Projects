@@ -1,0 +1,62 @@
+Class_Name,Parent_class,Relation
+ Complete Blood Count,Lab test,Subclass
+ Prothrombin Time,Lab test,Subclass
+ Basic Metabolic Panel,Lab test,Subclass
+ Comprehensive Metabolic Panel,Lab test,Subclass
+ Lipid Panel,Lab test,Subclass
+ Liver Panel,Lab test,Subclass
+ Thyroid Stimulating Hormone,Lab test,Subclass
+ Hemoglobin A1C,Lab test,Subclass
+ Cultures ,Lab test,Subclass
+Albumin Test,Lab test,Subclass
+Alkaline Phosphatase (ALP) Test,Lab test,Subclass
+Anti TPO Test,Lab test,Subclass
+Blood Urea Nitrogen Test,Lab test,Subclass
+Calcium Test,Lab test,Subclass
+CBC / Hemogram Test,Lab test,Subclass
+HIV Test,Lab test,Subclass
+Lipid Profile,Lab test,Subclass
+Liver Function Test (LFT),Lab test,Subclass
+T3 (Triiodothyronine) Test,Lab test,Subclass
+T4 (Thyroxine) Test,Lab test,Subclass
+Thyroid Test,Lab test,Subclass
+TSH (Thyroid Stimulating Hormone) Test,Lab test,Subclass
+Vitamin B12 Test,Lab test,Subclass
+Vitamin D Test,Lab test,Subclass
+angiocardiography,Medical Imaging,subClass
+angiography,Medical Imaging,subClass
+cerebral angiography,angiography,subClass
+brain scanning,Medical Imaging,subClass
+echoencephalography,brain scanning,subClass
+magnetoencephalography,brain scanning,subClass
+pneumoencephalography,brain scanning,subClass
+cholecystography,Medical Imaging,subClass
+echocardiography,Medical Imaging,subClass
+endoscopic retrograde cholangiopancreatoscopy,Medical Imaging,subClass
+lung ventilation/perfusion scan,Medical Imaging,subClass
+magnetic resonance imaging,Medical Imaging,subClass
+cardiac magnetic resonance imaging,magnetic resonance imaging,subClass
+functional magnetic resonance imaging,magnetic resonance imaging,subClass
+magnetic resonance spectroscopy,magnetic resonance imaging,subClass
+mammography,Medical Imaging,subClass
+myelography,Medical Imaging,subClass
+prenatal testing,Medical Imaging,subClass
+tomography,Medical Imaging,subClass
+computed tomography,tomography,subClass
+positron emission tomography,tomography,subClass
+single photon emission computed tomography,tomography,subClass
+ultrasound,Medical Imaging,subClass
+urography,Medical Imaging,subClass
+Breast imaging,Medical Imaging,subClass
+Dermatologic Imaging,Medical Imaging,subClass
+Pilosebaceous units,Dermatologic Imaging,subClass
+Skin cancer,Dermatologic Imaging,subClass
+Inflammatory skin diseases,Dermatologic Imaging,subClass
+Vascular Imaging,Medical Imaging,subClass
+Cutaneous miscrovasculature,Vascular Imaging,subClass
+Vascular Dysfunction,Vascular Imaging,subClass
+Wound Imaging,Vascular Imaging,subClass
+Carotid Vessel Imaging,Medical Imaging,subClass
+Musculoskeletal Imaging,Medical Imaging,subClass
+Gastrointestinal Imaging,Medical Imaging,subClass
+Adipose Tissue Imaging,Medical Imaging,subClass
