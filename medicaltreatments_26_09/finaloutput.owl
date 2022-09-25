@@ -1,0 +1,1899 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/medicaltreatments#"
+     xml:base="http://www.semanticweb.org/medicaltreatments"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/medicaltreatments#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Abortion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Abortion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Surgical_treatment"/>
+        <rdfs:comment>Abortion is the termination of a pregnancy by removal or expulsion of an embryo or fetus
+.
+
+Resource: https://en.wikipedia.org/wiki/Abortion
+
+Justification: Based of equipments used for performing abortion</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Adipose_Tissue_Imaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Adipose_Tissue_Imaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>Adipose tissue imaging is used for measuring abdominal adipose tissue.
+
+Resource: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6450044/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Albumin_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Albumin_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>An albumin blood test measures the amount of albumin in your blood. Low albumin levels can be a sign of liver or kidney disease or another medical condition. High levels may be a sign of dehydration.
+
+Resource: https://medlineplus.gov/lab-tests/albumin-blood-test/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Amputation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Amputation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Surgical_treatment"/>
+        <rdfs:comment>Amputation is the removal of a limb by trauma, medical illness, or surgery. As a surgical measure, it is used to control pain or a disease process in the affected limb, such as malignancy or gangrene.
+
+Resource: https://en.wikipedia.org/wiki/Amputation</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Anti_TPO_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Anti_TPO_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>Anti-TPO is an ELISA test for the quantitative determination of IgG antibodies against thyroid peroxidase (TPO) in human serum or plasma. This test detects antibodies against TPO in the blood.
+
+Resource: https://www.orgentec.com/de/produkte/ELISA/Autoimmundiagnostik/Schilddr%C3%BCsendiagnostik/ORG+503.html#:~:text=Anti%2DTPO%20ist%20ein%20ELISA,Jodierung%20der%20Tyrosinreste%20im%20Thyreogobulin.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Antibody_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Antibody_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Immunotherapy"/>
+        <rdfs:comment>Antibody therapy may refer to several different uses of antibodies for the treatment of medical conditions.
+
+Resource: https://en.wikipedia.org/wiki/Antibody_therapy</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Auscultation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Auscultation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Physical_examination"/>
+        <rdfs:comment>Auscultation is listening to the internal sounds of the body, usually using a stethoscope. Heath care providers routinely listen to a person&apos;s lungs, hearts and intestines to evaluate frequency, quality about the sounds. 
+							 
+Resource: https://patients.uroweb.org/tests/physical-examination/
+
+Justification: Based on sounds</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Balance_retraining -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Balance_retraining">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Vestibular_rehabilitation"/>
+        <rdfs:comment>Lie down as fast as you can on the side which makes you dizzy. Wait for 30 seconds, then sit up quickly and stay upright for 30 seconds. Now repeat this on the other side. If you do this exercise 10 times every day you will be very dizzy at first, but the dizziness should clear up in a few weeks.
+
+Resource: https://vestibular.org/sites/default/files/page_files/Documents/Balance%20Retraining_Yardley.pdf</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Basic_Metabolic_Panel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Basic_Metabolic_Panel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>A basic metabolic panel (BMP) is a test that measures eight different substances (glucose, calcium, sodium, potassium, carbon dioxide, chloride, blood urea nitrogen, creatinine) in your blood. It provides important information about your body&apos;s chemical balance and metabolism. Metabolism is the process of how the body uses food and energy. 
+
+Resource: https://medlineplus.gov/lab-tests/basic-metabolic-panel-bmp/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Blood_Urea_Nitrogen_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Blood_Urea_Nitrogen_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>The blood urea nitrogen (BUN) test reveals important information about how well your kidneys are working. A BUN test measures the amount of urea nitrogen that&apos;s in your blood.
+
+Resource: https://www.mayoclinic.org/tests-procedures/blood-urea-nitrogen/about/pac-20384821</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Blood_test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Blood_test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>A blood test is a laboratory analysis performed on a blood sample that is usually extracted from a vein in the arm using a hypodermic needle, or via fingerprick.
+
+Resource: https://en.wikipedia.org/wiki/Blood_test</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Bone_cancer_chemotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Bone_cancer_chemotherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Cancer_chemotherapy"/>
+        <rdfs:comment>Bone cancer chemotherapy is to treat bone tumors.
+
+Resource: https://en.wikipedia.org/wiki/Bone_tumor#Chemotherapy_and_radiotherapy</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Bone_marrow_disease_chemotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Bone_marrow_disease_chemotherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Chemotherapy"/>
+        <rdfs:comment>Bone marrow diease chemotherapy is a treatment procedure for all the bone marrow dieases.
+
+Resource: https://www.healthline.com/health/myelosuppression#:~:text=Myelosuppression%20%E2%80%94%20also%20referred%20to%20as,called%20myeloablation%2C%20can%20be%20fatal.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Bone_marrow_transplantation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Bone_marrow_transplantation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Organ_transplantation"/>
+        <rdfs:comment>Hematopoietic stem-cell/bone marrow transplantation is the transplantation of multipotent hematopoietic stem cells, usually derived from bone marrow, peripheral blood, or umbilical cord blood in order to replicate inside of a patient and to produce additional normal blood cells.
+
+Resource: https://en.wikipedia.org/wiki/Hematopoietic_stem_cell_transplantation</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Bowel_sounds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Bowel_sounds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Auscultation"/>
+        <rdfs:comment>Bowel sound is a rumbling, growling or gurgling noise produced by movement of the contents of the gastro-intestinal tract as they are propelled through the small intestine by a series of muscle contractions called peristalsis.
+
+Resource: https://en.wikipedia.org/wiki/Stomach_rumble</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Breast_cancer_chemotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Breast_cancer_chemotherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Cancer_chemotherapy"/>
+        <rdfs:comment>Breast cancer chemotherapy refers to the use of cytotoxic drugs (chemotherapy) in the treatment of breast cancer.
+
+Resource: https://en.wikipedia.org/wiki/Breast_cancer_chemotherapy</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Breast_cancer_screening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Breast_cancer_screening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Cancer_screening"/>
+        <rdfs:comment>Breast cancer screening is the medical screening of asymptomatic, apparently healthy women for breast cancer in an attempt to achieve an earlier diagnosis.
+
+Resource: https://en.wikipedia.org/wiki/Breast_cancer_screening</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Breast_imaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Breast_imaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>Breast imaging involves imaging of the breasts for screening or diagnostic purposes. There are various methods of breast imaging using a variety of technologies.
+
+Resource: https://en.wikipedia.org/wiki/Breast_imaging</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#CAR-Tcell_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#CAR-Tcell_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Cellular_adoptive_immunotherapy"/>
+        <rdfs:comment>Chimeric antigen receptor T cells (also known as CAR T cells) are T cells that have been genetically engineered to produce an artificial T cell receptor for use in immunotherapy.
+
+Resource: https://en.wikipedia.org/wiki/Chimeric_antigen_receptor_T_cell</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#CT_scan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#CT_scan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>CT scan is a medical medical imaging technique used to obtain detailed internal images of the body.
+
+Resource: https://en.wikipedia.org/wiki/CT_scan</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Calcium_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Calcium_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>Calcium test is a blood test to measure the amount of calcium in the blood. Serum calcium is usually measured to screen for or monitor bone diseases or calcium-regulation disorders (diseases of the parathyroid gland or kidneys).
+
+Resource: https://www.uclahealth.org/medical-services/surgery/endocrine-surgery/patient-resources/patient-education/endocrine-surgery-encyclopedia/calcium-test#:~:text=What%20is%20a%20Calcium%20Test,the%20parathyroid%20gland%20or%20kidneys).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Cancer_chemotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Cancer_chemotherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Chemotherapy"/>
+        <rdfs:comment>Chemotherapy is a cancer treatment where medicine is used to kill cancer cells. They stop cancer cells reproducing, which prevents them from growing and spreading in the body
+							 
+Resource: https://www.nhs.uk/conditions/chemotherapy/#:~:text=Chemotherapy%20is%20a%20cancer%20treatment,and%20spreading%20in%20the%20body.
+
+Justification: Based on varities of cancer treated by cancer chemotherapy</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Cancer_screening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Cancer_screening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Screening_tests"/>
+        <rdfs:comment>Cancer screening tests aim to find cancer before it causes symptoms and when it may be easier to treat successfully
+.
+							 
+Resource: https://en.wikipedia.org/wiki/Cancer_screening
+
+Justification: Cancer screening on different organs</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Cardiopulmonary_bypass_surgery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Cardiopulmonary_bypass_surgery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Surgical_treatment"/>
+        <rdfs:comment>Cardiopulmonary bypass (CPB) is a technique in which a machine temporarily takes over the function of the heart and lungs during surgery, maintaining the circulation of blood and the oxygen content of the patient&apos;s body. 
+
+Resource: https://en.wikipedia.org/wiki/Cardiopulmonary_bypass</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Cardiopulmonary_resuscitation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Cardiopulmonary_resuscitation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#First_aid"/>
+        <rdfs:comment>Cardiopulmonary resuscitation (CPR) is a lifesaving technique that&apos;s useful in many emergencies, such as a heart attack or near drowning, in which someone&apos;s breathing or heartbeat has stopped. The American Heart Association recommends starting CPR with hard and fast chest compressions. 
+
+Resource: https://www.mayoclinic.org/first-aid/first-aid-cpr/basics/art-20056600#:~:text=Cardiopulmonary%20resuscitation%20(CPR)%20is%20a,hard%20and%20fast%20chest%20compressions</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Cardiothoracic_surgery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Cardiothoracic_surgery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Surgical_treatment"/>
+        <rdfs:comment>Cardiothoracic surgery is the field of medicine involved in surgical treatment of organs inside the thoracic cavity — generally treatment of conditions of the heart (heart disease), lungs (lung disease), and other pleural or mediastinal structures.
+
+Resource: https://en.wikipedia.org/wiki/Cardiothoracic_surgery</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Cardiovascular_physical_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Cardiovascular_physical_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Physical_therapy"/>
+        <rdfs:comment>Cardiopulmonary physical therapy is about building independence if you have a serious cardiovascular or pulmonary problem – a problem with your heart or circulation.
+
+Resource: https://www.movementforlife.com/articles/6-different-types-physical-therapy</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Carotid_Vessel_Imaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Carotid_Vessel_Imaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>Carotid vessel imaging is to identify the carotid artery disease. It is used to examine the blood flow through the carotid arteries.
+
+Resource: https://www.yalemedicine.org/conditions/carotid-artery-disease-imaging</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Cellular_adoptive_immunotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Cellular_adoptive_immunotherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Immunotherapy"/>
+        <rdfs:comment>Cellular adoptive immunotherapy is a type of immunotherapy. Immune cells are usually isolated from patients for expansion or engineering purposes and reinfused back into patients to fight diseases using their own immune system
+.
+							 
+Resource: https://en.wikipedia.org/wiki/Cellular_adoptive_immunotherapy
+
+Justification: Based on different set of cells used for treatment</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Cervical_cancer_screening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Cervical_cancer_screening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Cancer_screening"/>
+        <rdfs:comment>Cervical screening is the process of detecting and removing abnormal tissue or cells in the cervix before cervical cancer develops. By aiming to detect and treat cervical neoplasia early on, cervical screening aims at secondary prevention of cervical cancer.
+
+Resource: https://en.wikipedia.org/wiki/Cervical_screening</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Chemotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Chemotherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Treatment_procedures"/>
+        <rdfs:comment>Chemotherapy is a drug treatment that uses powerful chemicals to kill fast-growing cells in your body. Chemotherapy is most often used to treat cancer, since cancer cells grow and multiply much more quickly than most cells in the body
+.
+							 
+Resource: https://www.mayoclinic.org/tests-procedures/chemotherapy/about/pac-20385033
+
+Justification: Based on different varities of diseases treated in chemotherapy</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Chicken_pox_vaccine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Chicken_pox_vaccine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Live-attenuated_vaccinations"/>
+        <rdfs:comment>Varicella vaccine, also known as chickenpox vaccine, is a vaccine that protects against chickenpox. If given to those who are not immune within five days of exposure to chickenpox it prevents most cases of disease.
+
+Resource: https://en.wikipedia.org/wiki/Varicella_vaccine</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Cholestrol_tests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Cholestrol_tests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Screening_tests"/>
+        <rdfs:comment>A cholesterol test can help determine your risk of the buildup of fatty deposits (plaques) in your arteries that can lead to narrowed or blocked arteries throughout your body (atherosclerosis).
+
+Resource: https://www.mayoclinic.org/tests-procedures/cholesterol-test/about/pac-20384601</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Colorectal_cancer_screening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Colorectal_cancer_screening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Cancer_screening"/>
+        <rdfs:comment>Colorectal cancer (CRC), also known as bowel cancer, colon cancer, or rectal cancer, is the development of cancer from the colon or rectum (parts of the large intestine). Signs and symptoms may include blood in the stool, a change in bowel movements, weight loss, and fatigue.
+
+Resource: https://en.wikipedia.org/wiki/Colorectal_cancer#Diagnosis,_screening_and_monitoring</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Colorectal_surgery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Colorectal_surgery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Surgical_treatment"/>
+        <rdfs:comment>Colorectal surgery is a field in medicine dealing with disorders of the rectum, anus, and colon.
+
+Resource: https://en.wikipedia.org/wiki/Colorectal_surgery</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Complete_Blood_Count -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Complete_Blood_Count">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>A complete blood count (CBC) is a blood test used to evaluate your overall health and detect a wide range of disorders, including anemia, infection and leukemia. A complete blood count test measures several components and features of your blood
+
+Resource: https://www.mayoclinic.org/tests-procedures/complete-blood-count/about/pac-20384919</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Comprehensive_Metabolic_Panel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Comprehensive_Metabolic_Panel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>A comprehensive metabolic panel (CMP) is a test that measures 14 different substances (Glucose, Calcium, Sodium, potassium, carbon dioxide, chloride, Albumin, Total protein, ALP (alkaline phosphatase), ALT (alanine transaminase), AST (aspartate aminotransferase), Bilirubin, BUN (blood urea nitrogen) and creatinine) in your blood. It provides important information about your body&apos;s chemical balance and metabolism. 
+
+Resource: https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Cornea_transplantation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Cornea_transplantation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Tissue_transplantation"/>
+        <rdfs:comment>Corneal transplantation, also known as corneal grafting, is a surgical procedure where a damaged or diseased cornea is replaced by donated corneal tissue.
+
+Resource: https://en.wikipedia.org/wiki/Corneal_transplantation</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Cryosurgery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Cryosurgery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Surgical_treatment"/>
+        <rdfs:comment>Cryosurgery is the use of extreme cold in surgery to destroy abnormal or diseased tissue; thus, it is the surgical application of cryoablation. Cryosurgery has been historically used to treat a number of diseases and disorders, especially a variety of benign and malignant skin conditions.
+
+Resource: https://en.wikipedia.org/wiki/Cryosurgery</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Cultures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Cultures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>A culture is a test to confirm whether you have a bacterial infection. The test can also identify what type of bacteria caused the infection, which helps guide treatment decisions. For a bacteria culture test, a healthcare provider takes a sample of blood, stool, urine, skin, mucus or spinal fluid.
+
+Resource: https://my.clevelandclinic.org/health/diagnostics/22155-bacteria-culture-test#:~:text=A%20bacteria%20culture%20is%20a,skin%2C%20mucus%20or%20spinal%20fluid.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Cutaneous_miscrovasculature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Cutaneous_miscrovasculature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Vascular_Imaging"/>
+        <rdfs:comment>The cutaneous microcirculation is organized as two horizontal plexuses. One is situated 1-1.5 mm below the skin surface and the other is at the dermalm subcutaneous junction. This imaging to used to evaluate these two horizontal plexuses.
+
+Resource: https://core.ac.uk/download/pdf/82254301.pdf</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Deep_palpation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Deep_palpation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Palpation"/>
+        <rdfs:comment>Deep palpation is a technique to feel internal organs and masses for size, shape, tenderness, symmetry, and mobility.
+
+Resource: https://journals.lww.com/nursing/Fulltext/2006/11002/Assessing_patients_effectively__Here_s_how_to_do.5.aspx</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Dendritic_cell_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Dendritic_cell_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Cellular_adoptive_immunotherapy"/>
+        <rdfs:comment>Dendritic cell therapy provokes anti-tumor responses by causing dendritic cells to present tumor antigens to lymphocytes, which activates them, priming them to kill other cells that present the antigen.
+
+Resource: https://en.wikipedia.org/wiki/Cancer_immunotherapy#Dendritic_cell_therapy</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Dermatologic_Imaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Dermatologic_Imaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>Dermatologic Imaging is about examining the skin. There are variety of techniques used.
+
+Resource: https://www.medpace.com/labs/core-labs/dermatologic-imaging-and-dermatopathology/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Diabetes_tests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Diabetes_tests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Screening_tests"/>
+        <rdfs:comment>Diabetes is a group of metabolic disorders characterized by a high blood sugar level (hyperglycemia) over a prolonged period of time
+							 
+Resource: https://en.wikipedia.org/wiki/Diabetes
+
+Justification: Based on methods to check the sugar levels by using different antibodies</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Diagnostic_procedures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Diagnostic_procedures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_treatments"/>
+        <rdfs:comment>A type of procedure used to help diagnose a disease or condition. Also it is the identification of the nature and cause of a certain phenomenon
+.
+
+Resource: https://www.cancer.gov/publications/dictionaries/cancer-terms/def/diagnostic-procedure
+
+Justification: Classification based on different methods or procedure for diagnosis</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Dilation_and_curettage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Dilation_and_curettage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Abortion"/>
+        <rdfs:comment>Dilation and curettage refers to the dilation of the cervix and surgical removal of part of the lining of the uterus and/or contents of the uterus by scraping and scooping.
+
+Resource: https://en.wikipedia.org/wiki/Dilation_and_curettage</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Dipstick_test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Dipstick_test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Urine_test"/>
+        <rdfs:comment>A urine dipstick test is a test of urine, using a special strip of paper that is dipped into a sample of urine.
+
+Resource: https://patient.info/treatment-medication/urine-dipstick-test#nav-0</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Electromagnetic_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Electromagnetic_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Magnetic_field_therapy"/>
+        <rdfs:comment>Electromagnetic Therapy is known to have analgesic, anti-inflammatory, anti-spasmodic, regenerative and relaxant effects which relieve many debilitating symptoms.
+
+Resource: https://www.ramsni.com/information_links/Electromagnetic%20Stimulation%20Therapy%20Info/Electromagnetic%20Stimulation%20Therapy%20Info.html#:~:text=Electromagnetic%20Therapy%20is%20known%20to,improve%20mobility%20and%20coordination</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Endocrine_surgery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Endocrine_surgery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Surgical_treatment"/>
+        <rdfs:comment>Endocrine surgery is a surgical sub-speciality focusing on surgery of the endocrine glands, including the thyroid gland, the parathyroid glands, the adrenal glands, glands of the endocrine pancreas, and some neuroendocrine glands.
+
+Resource: https://en.wikipedia.org/wiki/Endocrine_surgery</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#First_aid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#First_aid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Treatment_procedures"/>
+        <rdfs:comment>First aid is a series of simple, life-saving medical techniques that a non-doctor can be trained to perform in medical emergency situations, before the intervention of emergency medical technicians or doctors. It is best to obtain training in first aid before a medical emergency occurs
+.
+							 
+Resource: https://en.wikipedia.org/wiki/Category:First_aid
+
+Justification: Based on different methods of treating in first aid</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Flu_shots -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Flu_shots">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Inactivated_vaccinations"/>
+        <rdfs:comment>Influenza vaccines, also known as flu jabs or flu shots, are vaccines that protect against infection by influenza viruses.
+
+Resource: https://en.wikipedia.org/wiki/Influenza_vaccine</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Gastrointestinal_Imaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Gastrointestinal_Imaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>Gastrointestinal (GI) imaging is an examination of the esophagus, stomach and first part of the small intestine (also known as the duodenum). Images are produced using a special form of x-ray called fluoroscopy which shows movement through body structures.
+
+Resource: https://www.mic.ca/for-patients/procedure-information/gastrointestinal-imaging/#/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Geriatric_physical_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Geriatric_physical_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Physical_therapy"/>
+        <rdfs:comment>Physical therapy for older patients is one of the most common types of therapy.
+
+Resource: https://pdhtherapy.com/2018/12/learn-more-about-the-6-different-types-of-physical-therapy/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Gestational_diabetes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Gestational_diabetes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Diabetes_tests"/>
+        <rdfs:comment>Gestational diabetes is a condition in which a woman without diabetes develops high blood sugar levels during pregnancy. Gestational diabetes generally results in few symptoms; however, it does increase the risk of pre-eclampsia, depression, and requiring a Caesarean section.
+
+Resource: https://en.wikipedia.org/wiki/Gestational_diabetes</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#HIV_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#HIV_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>An HIV test checks a sample of your blood to see whether you are infected with HIV (human immunodeficiency virus). HIV is a virus that destroys certain cells in your immune system. 
+
+Resource: https://medlineplus.gov/lab-tests/hiv-screening-test/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#HIV_tests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#HIV_tests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Screening_tests"/>
+        <rdfs:comment>HIV tests are used to detect the presence of the human immunodeficiency virus (HIV), the virus that causes acquired immunodeficiency syndrome (AIDS), in serum, saliva, or urine. 
+
+Resource: https://en.wikipedia.org/wiki/Diagnosis_of_HIV/AIDS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Hand_surgery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Hand_surgery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Surgical_treatment"/>
+        <rdfs:comment>Hand surgery deals with both surgical and non-surgical treatment of conditions and problems that may take place in the hand or upper extremity (commonly from the tip of the hand to the shoulder) including injury and infection.
+
+Resource: https://en.wikipedia.org/wiki/Hand_surgery</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Heart_sounds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Heart_sounds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Auscultation"/>
+        <rdfs:comment>Heart sounds are the noises generated by the beating heart and the resultant flow of blood through it. Specifically, the sounds reflect the turbulence created when the heart valves snap shut.
+
+Resource: https://en.wikipedia.org/wiki/Heart_sounds</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Heart_transplantation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Heart_transplantation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Organ_transplantation"/>
+        <rdfs:comment>A heart transplant is a surgical transplant procedure performed on patients with end-stage heart failure or severe coronary artery disease when surgical treatments have failed.
+
+Resource: https://en.wikipedia.org/wiki/Heart_transplantation</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Hemoglobin_A1C -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Hemoglobin_A1C">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>The A1C test also known as the hemoglobin A1C or HbA1c test is a simple blood test that measures your average blood sugar levels over the past 3 months. It’s one of the commonly used tests to diagnose prediabetes and diabetes, and is also the main test to help you and your health care team manage your diabetes.
+
+Resource: https://www.cdc.gov/diabetes/managing/managing-blood-sugar/a1c.html</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Immune_system_disorder_chemotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Immune_system_disorder_chemotherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Chemotherapy"/>
+        <rdfs:comment>The goal of chemotherapy in the treatment of autoimmune and inflammatory disorders is to dampen the activity of the immune system rather than to kill abnormal cells.
+
+Resource: https://academic.oup.com/jnci/article/96/8/577/2521219</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Immunotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Immunotherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Treatment_procedures"/>
+        <rdfs:comment>Immunotherapy is the treatment of disease by activating or suppressing the immune system. Immunotherapies designed to elicit or amplify an immune response. Immunotherapy is under preliminary research for its potential to treat various forms of cancer
+.
+							 
+Resource: https://en.wikipedia.org/wiki/Immunotherapy
+
+Justification: Based on different methods of treating cancer using Immunotherapy</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Inactivated_vaccinations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Inactivated_vaccinations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Vaccinations"/>
+        <rdfs:comment>An inactivated vaccine (or killed vaccine) is a vaccine consisting of virus particles, bacteria, or other pathogens that have been grown in culture and then killed to destroy disease-producing capacity. Inactivated vaccines usually don’t provide immunity (protection) that’s as strong as live vaccines. So you may need several doses over time (booster shots) in order to get ongoing immunity against diseases
+.
+							 
+Resource: https://en.wikipedia.org/wiki/Inactivated_vaccine
+
+Justification: Based on age group of people the vaccine shots are given</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Inflammatory_skin_diseases -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Inflammatory_skin_diseases">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Dermatologic_Imaging"/>
+        <rdfs:comment>The flaking and itchy skin caused by eczema, seborrheic dermatitis, and psoriasis can be very uncomfortable and often leads to feeling self-conscious or alone during flare-ups. 
+
+Resource: https://www.health.harvard.edu/diseases-and-conditions/inflammatory-skin-conditions-eczema-seborrheic-dermatitis-and-psoriasis#:~:text=Add%20To%20Cart-,Inflammatory%20Skin%20Conditions%3A%20Eczema%2C%20seborrheic%20dermatitis%2C%20and%20psoriasis,or%20alone%20during%20flare%2Dups.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Inspection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Inspection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Physical_examination"/>
+        <rdfs:comment>Inspect each body system using vision, smell, and hearing to assess normal conditions and deviations.
+
+Resource: https://journals.lww.com/nursing/Fulltext/2006/11002/Assessing_patients_effectively__Here_s_how_to_do.5.aspx</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Lab_tests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Lab_tests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Diagnostic_procedures"/>
+        <rdfs:comment>A medical procedure performed in a laboratory that involves testing a sample of blood, urine, or other substance from the body, it can help determine a diagnosis.							
+ 
+Resource: https://en.wikipedia.org/wiki/Medical_laboratory
+
+Justification: Based on different body fluid testing</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Laparoscopic_surgery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Laparoscopic_surgery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Surgical_treatment"/>
+        <rdfs:comment>Lparoscopic surgery is an operation performed in the abdomen or pelvis using small incisions (usually 0.5–1.5 cm) with the aid of a camera. The laparoscope aids diagnosis or therapeutic interventions with a few small cuts in the abdomen.
+
+Resource: https://en.wikipedia.org/wiki/Laparoscopy</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Light_palpation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Light_palpation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Palpation"/>
+        <rdfs:comment>Light palpation is a technique to feel for surface abnormalities. Assess for texture, tenderness, temperature, moisture, elasticity, pulsations, and masses.
+
+Resource: https://journals.lww.com/nursing/Fulltext/2006/11002/Assessing_patients_effectively__Here_s_how_to_do.5.aspx</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Lipid_Panel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Lipid_Panel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>A lipid panel is a common blood test that healthcare providers use to monitor and screen for your risk of cardiovascular disease. The panel includes three measurements of your cholesterol levels and a measurement of your triglycerides.
+
+Resource: https://my.clevelandclinic.org/health/diagnostics/17176-lipid-panel</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Lipid_Profile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Lipid_Profile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>A lipid profile measures the level of specific lipids in the blood. Lipids are fats that are important constituents of cells and sources of energy. They are necessary for life, but abnormal levels may cause -cardiovascular disease.
+
+Resource: https://labtestsonline.org.uk/tests/lipid-profile</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Live-attenuated_vaccinations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Live-attenuated_vaccinations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Vaccinations"/>
+        <rdfs:comment>An attenuated vaccine (or a live attenuated vaccine, LAV) is a vaccine created by reducing the virulence of a pathogen, but still keeping it viable. Because these vaccines are so similar to the natural infection that they help prevent, they create a strong and long-lasting immune response. Just 1 or 2 doses of most live vaccines can give you a lifetime of protection against a germ and the disease it causes
+.
+							 
+Resource: https://en.wikipedia.org/wiki/Attenuated_vaccine
+
+Justification: Based on different set of diseases, vaccines are given</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Liver_Panel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Liver_Panel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>The liver panel is a test with multiple measurements that help to assess the health and function of the liver. The test is conducted with a blood sample that is normally taken from a vein in your arm. A liver panel can be used to help diagnose and monitor liver diseases. It can also provide information about other health conditions that affect the liver.
+
+Resource: https://www.testing.com/tests/liver-panel/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Liver_transplantation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Liver_transplantation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Organ_transplantation"/>
+        <rdfs:comment>Liver transplantation is the replacement of a diseased liver with the healthy liver from another person.
+
+Resource: https://en.wikipedia.org/wiki/Liver_transplantation</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Lung_cancer_chemotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Lung_cancer_chemotherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Cancer_chemotherapy"/>
+        <rdfs:comment>Chemotherapy for lung cancer involves taking a combination of different medicines. The medicines are usually given through a drip into a vein (intravenously), or into a tube connected to one of the blood vessels in your chest
+
+Resource: https://www.nhs.uk/conditions/lung-cancer/treatment/#:~:text=Chemotherapy%20for%20lung%20cancer%20involves,or%20tablets%20to%20swallow%20instead</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Lung_cancer_screening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Lung_cancer_screening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Cancer_screening"/>
+        <rdfs:comment>Lung cancer screening refers to cancer screening strategies used to identify early lung cancers before they cause symptoms, at a point where they are more likely to be curable. Lung cancer screening is critically important because of the incidence and prevalence of lung cancer. 
+
+Resource: https://en.wikipedia.org/wiki/Lung_cancer_screening</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#MRI_scan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#MRI_scan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>Magnetic resonance imaging (MRI) is a medical imaging technique used in radiology to form pictures of the anatomy and the physiological processes of the body. MRI scanners use strong magnetic fields, magnetic field gradients, and radio waves to generate images of the organs in the body.
+
+Resource: https://en.wikipedia.org/wiki/Magnetic_resonance_imaging</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Magnetic_field_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Magnetic_field_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Treatment_procedures"/>
+        <rdfs:comment>Magnetic field therapy uses different kinds of magnets on the body to help boost your overall health. It may also help to treat certain conditions
+.
+
+Resource: https://en.wikipedia.org/wiki/Magnet_therapy
+
+Justification: Classification based on different methods of treating in magnetic field therapy using different magnets</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Magnetic_therapy_with_acupuncture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Magnetic_therapy_with_acupuncture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Magnetic_field_therapy"/>
+        <rdfs:comment>Magnets go on the same sections of your skin that an acupuncturist would probably focus on in an acupuncture session.
+
+Resource: https://www.webmd.com/pain-management/magnetic-field-therapy-overview</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Measles_vaccine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Measles_vaccine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Live-attenuated_vaccinations"/>
+        <rdfs:comment>Measles vaccine protects against becoming infected with measles. Nearly all of those who do not develop immunity after a single dose develop it.
+
+Resource: https://en.wikipedia.org/wiki/Measles_vaccine</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Medical_imaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Medical_imaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Diagnostic_procedures"/>
+        <rdfs:comment>Medical imaging is the technique and process of imaging the interior of a body for clinical analysis and medical intervention, as well as visual representation of the function of some organs or tissues
+.
+							 
+Resource: https://en.wikipedia.org/wiki/Medical_imaging
+
+Justification: Based on different methods and equipments used in imaging</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Medical_treatments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Medical_treatments">
+        <rdfs:comment>Medical treatment is about management and care of a patient to combat a disease or disorder .
+							 
+Resource: https://www.wisconsin.edu/workers-compensation/coordinators/osha-record/medical-treatment/#:~:text=Medical%20treatment%20means%20the%20management,prescription%20drug%20at%20prescription%20strength
+
+Justification: Classification based on different methods of treatment</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Microscopic_test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Microscopic_test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Urine_test"/>
+        <rdfs:comment>Microscopic urinalysis is often done as part of an overall urinalysis. After a urine sample is collected, it&apos;s put into a centrifuge — a special machine that separates the liquid in the urine from any solid components that may be present, such as blood cells, mineral crystals, or microorganisms.
+
+Resource: https://kidshealth.org/en/parents/test-urinalysis.html#:~:text=Microscopic%20urinalysis%20is%20often%20done,%2C%20mineral%20crystals%2C%20or%20microorganisms.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Musculoskeletal_Imaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Musculoskeletal_Imaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>Musculoskeletal imaging is a subspecialty of diagnostic radiology which involves ordering and interpreting medical images of bones, joints and associated soft tissues and diagnosing injuries and disease.
+
+Resource: https://www.insideradiology.com.au/musculoskeletal-imaging/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Neurological_physical_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Neurological_physical_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Physical_therapy"/>
+        <rdfs:comment>Injuries or issues with the brain and/or spine may need neurological physical therapy. While these problems are not likely to heal all the way, physical therapy can improve the quality of living for the patients in a big way.
+
+Resource: https://pdhtherapy.com/2018/12/learn-more-about-the-6-different-types-of-physical-therapy/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Organ_transplantation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Organ_transplantation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Transplantation"/>
+        <rdfs:comment>Organ transplantation is a medical procedure in which an organ is removed from one body and placed in the body of a recipient, to replace a damaged or missing organ
+.
+							 
+Resource: https://en.wikipedia.org/wiki/Organ_transplantation
+
+Justification: Transplantation performed on different organs</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Orthopedic_physical_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Orthopedic_physical_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Physical_therapy"/>
+        <rdfs:comment>Orthopedic physical therapy is designed to help you to recover muscle strength, as you might need to after an injury has left you unable to use certain muscles.
+
+Resource: https://www.movementforlife.com/articles/6-different-types-physical-therapy</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Ovaries_cancer_chemotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Ovaries_cancer_chemotherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Cancer_chemotherapy"/>
+        <rdfs:comment>Chemo for ovarian cancer usually involves getting two different types of drugs together. Getting a combination of drugs instead of just one drug alone seems to work better as a first treatment for ovarian cancer.
+
+Resource: https://www.cancer.org/cancer/ovarian-cancer/treating/chemotherapy.html</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Palpation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Palpation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Physical_examination"/>
+        <rdfs:comment>Palpation is a method of feeling with the fingers or hands during a physical examination. The heath care provider touches and feels your body to examine the size, consistency, texture and tenderness of an organ or body part
+.
+							 
+Resource: https://patients.uroweb.org/tests/physical-examination/
+
+Justification: Based on different methods of palpation performed</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Pancreas_transplantation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Pancreas_transplantation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Organ_transplantation"/>
+        <rdfs:comment>A pancreas transplant is an organ transplant that involves implanting a healthy pancreas (one that can produce insulin) into a person who usually has diabetes.
+
+Resource: https://en.wikipedia.org/wiki/Pancreas_transplantation</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Pediatric_physical_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Pediatric_physical_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Physical_therapy"/>
+        <rdfs:comment>There are specific ways to apply physical therapy to children that differ from the methods most often used on adults.
+
+Resource: https://pdhtherapy.com/2018/12/learn-more-about-the-6-different-types-of-physical-therapy/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Percussion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Percussion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Physical_examination"/>
+        <rdfs:comment>Percussion is a method of tapping on a surface to determine the underlying structures, and is used in clinical examinations to assess the condition of the thorax or abdomen. 
+
+Resource: https://en.wikipedia.org/wiki/Percussion_(medicine)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Physical_examination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Physical_examination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Diagnostic_procedures"/>
+        <rdfs:comment>Physical examination is a medical practitioner examines a patient for any possible medical signs or symptoms of a medical condition. It generally consists of a series of questions about the patient&apos;s medical history followed by an examination based on the reported symptoms.
+							 
+Resource: https://en.wikipedia.org/wiki/Physical_examination
+
+Justification: Based on different techniques of examining the body</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Physical_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Physical_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Treatment_procedures"/>
+        <rdfs:comment>Physical therapy is used for the preservation, enhancement, or restoration of movement and physical function impaired or threatened by disease, injury, or disability that utilizes therapeutic exercise, physical modalities, assistive devices, and patient education and training
+.
+
+Resource: https://en.wikipedia.org/wiki/Physical_therapy
+
+Justification: Classification based on methods of physical therapy on particular specialization</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Pilosebaceous_units -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Pilosebaceous_units">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Dermatologic_Imaging"/>
+        <rdfs:comment>Pilosebaceous units are found in all regions of the skin except for the palmar and plantar surfaces. Pilosebaceous units are most dense on the scalp, followed by the face, neck, and shoulders. Examining these units and identifying the disease.
+
+Resource: https://www.sciencedirect.com/topics/veterinary-science-and-veterinary-medicine/pilosebaceous-unit</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Polio_shots -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Polio_shots">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Inactivated_vaccinations"/>
+        <rdfs:comment>Polio vaccines are vaccines used to prevent poliomyelitis (polio). Two types are used: an inactivated poliovirus given by injection (IPV) and a weakened poliovirus given by mouth (OPV).
+
+Resource: https://en.wikipedia.org/wiki/Polio_vaccine</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Posture_training -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Posture_training">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Vestibular_rehabilitation"/>
+        <rdfs:comment>During postural training, patients are taught what constitutes good posture and alignment of the back neck and spine and how to achieve and maintain correct posture while sitting standing, driving, and walking.
+
+Resource: https://www.medstarhealth.org/services/postural-training</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Preventive_procedures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Preventive_procedures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_treatments"/>
+        <rdfs:comment>Preventive healthcare, or prophylaxis, consists of measures taken for the purposes of disease prevention.
+							 
+Resource: https://en.wikipedia.org/wiki/Preventive_healthcare
+
+Justification: Different methods based on preventing or identifying a disease</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Prothrombin_Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Prothrombin_Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>The prothrombin time, sometimes referred to as PT or pro time test, is a test to evaluate blood clotting. Prothrombin is a protein produced by your liver. It is one of many factors in your blood that help it to clot appropriately.
+
+Resource: https://www.mayoclinic.org/tests-procedures/prothrombin-time/about/pac-20384661</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Respiratory_sounds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Respiratory_sounds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Auscultation"/>
+        <rdfs:comment>Respiratory sounds, also known as lung sounds or breath sounds, refer to the specific sounds generated by the movement of air through the respiratory system. These may be easily audible or identified through auscultation of the respiratory system through the lung fields with a stethoscope as well as from the spectral characteristics of lung sounds.
+
+Resource: https://en.wikipedia.org/wiki/Respiratory_sounds</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Screening_tests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Screening_tests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Preventive_procedures"/>
+        <rdfs:comment>Screening, in medicine, is a strategy used to look for as-yet-unrecognised conditions or risk markers. A screening test is done to detect potential health disorders or diseases in people who do not have any symptoms of disease. The goal is early detection and lifestyle changes or surveillance, to reduce the risk of disease, or to detect it early enough to treat it most effectively
+.
+							 
+Resource: https://en.wikipedia.org/wiki/Screening_(medicine)
+
+Justification: Based on different methods of screening tests for different diseases</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Semen_test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Semen_test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>A semen analysis, also called a sperm count, measures the quantity and quality of a man&apos;s semen and sperm.
+
+Resource: https://en.wikipedia.org/wiki/Semen_analysis</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Skin_cancer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Skin_cancer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Dermatologic_Imaging"/>
+        <rdfs:comment>Skin cancer the abnormal growth of skin cells most often develops on skin exposed to the sun. But this common form of cancer can also occur on areas of your skin not ordinarily exposed to sunlight. Imaging technique can be used to detect the skin cancer.
+
+Resource: https://www.mayoclinic.org/diseases-conditions/skin-cancer/symptoms-causes/syc-20377605</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Skin_transplantation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Skin_transplantation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Tissue_transplantation"/>
+        <rdfs:comment>Skin grafting, a type of graft surgery, involves the transplantation of skin. The transplanted tissue is called a skin graft.
+
+Resource: https://en.wikipedia.org/wiki/Skin_grafting</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Small_pox_vaccine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Small_pox_vaccine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Live-attenuated_vaccinations"/>
+        <rdfs:comment>The smallpox vaccine protects people from smallpox by helping their bodies develop immunity to smallpox. The vaccine is made from a virus called vaccinia, which is a poxvirus similar to smallpox, but less harmful. 
+
+Resource: https://www.cdc.gov/smallpox/vaccine-basics/index.html</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Staticmagnetic_field_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Staticmagnetic_field_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Magnetic_field_therapy"/>
+        <rdfs:comment>Static magnetic field (SMF) therapy, applied via a permanent magnet attached to the skin, is used by people worldwide for self-care. 
+
+Resource: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2686626/#:~:text=Static%20magnetic%20field%20(SMF)%20therapy,to%20evaluate%20SMF%20therapy%20effectiveness</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Surgical_treatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Surgical_treatment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Treatment_procedures"/>
+        <rdfs:comment>Surgery is a medical specialty that uses operative, manual and instrumental techniques on a person to investigate or treat a pathological condition such as a disease or injury, to help improve bodily function, appearance, or to repair unwanted ruptured areas
+.
+
+Resource: https://en.wikipedia.org/wiki/Surgery
+
+Justification: Different methods of surgery performed on different parts of the body( either internal organs or external parts)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Thyroid_Stimulating_Hormone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Thyroid_Stimulating_Hormone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>TSH stands for “thyroid stimulating hormone” and the test measures how much of this hormone is in your blood. A TSH test is done to find out if your thyroid gland is working the way it should. It can tell you if it’s overactive (hyperthyroidism) or underactive (hypothyroidism). The test can also detect a thyroid disorder before you have any symptoms.
+
+Resource: https://www.webmd.com/women/what-is-tsh-test</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Thyroid_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Thyroid_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>Health care professionals use thyroid tests to check how well your thyroid is working and to find the cause of problems such as hyperthyroidism or hypothyroidism. 
+
+Resource: https://www.niddk.nih.gov/health-information/diagnostic-tests/thyroid</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Tissue_transplantation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Tissue_transplantation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Transplantation"/>
+        <rdfs:comment>Tissue transplantation is about transplanting tissues from one body to another, tissues can be of bone, skin, cartilage etc
+.
+							 
+Resource: https://www.msdmanuals.com/professional/immunology-allergic-disorders/transplantation/tissue-transplantation
+
+Justification: Transplantation performed on different tissues/cells in the body</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Transplantation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Transplantation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Surgical_treatment"/>
+        <rdfs:comment>A surgical procedure in which tissue or an organ is transferred from one area of a person’s body to another area, or from one person (the donor) to another person (the recipient)
+.
+							 
+Resource: https://www.cancer.gov/publications/dictionaries/cancer-terms/def/transplantation
+
+Justification: Based on transplanting body organs, tissues and cells</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Treatment_procedures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Treatment_procedures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_treatments"/>
+        <rdfs:comment>Treatment procedures are used to treat various illnesses or diseases and improve the general health and functioning of the human body. It is a medical interventions designed to restore health.
+
+Resource:https://study.com/learn/lesson/what-are-therapeutic-procedures.html
+
+Justification: Classification based on methods of treating a disease/problem</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Type_1_diabetes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Type_1_diabetes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Diabetes_tests"/>
+        <rdfs:comment>Type 1 diabetes formerly known as juvenile diabetes, is an autoimmune disease that originates when cells that make insulin (beta cells) are destroyed by the immune system.Insulin is a hormone required for the cells to use blood sugar for energy and it helps regulate normal glucose levels in the bloodstream. Before treatment this results in high blood sugar levels in the body.
+
+Resource: https://en.wikipedia.org/wiki/Type_1_diabetes</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Type_2_diabetes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Type_2_diabetes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Diabetes_tests"/>
+        <rdfs:comment>Type 2 diabetes (T2D), formerly known as adult-onset diabetes, is a form of diabetes that is characterized by high blood sugar, insulin resistance, and relative lack of insulin.
+
+Resource: https://en.wikipedia.org/wiki/Type_2_diabetes</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Ultrasound_scan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Ultrasound_scan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>Ultrasound is sound waves with frequencies higher than the upper audible limit of human hearing. Ultrasound is not different from &quot;normal&quot; (audible) sound in its physical properties, except that humans cannot hear it.
+
+Resource: https://en.wikipedia.org/wiki/Ultrasound</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Urine_test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Urine_test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>A urine test is any medical test performed on a urine specimen. A urinalysis involves checking the appearance, concentration and content of urine. 
+							 
+Resource :https://en.wikipedia.org/wiki/Urine_test
+
+Justification : Based on methods of evaluating urine</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Vaccinations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Vaccinations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Preventive_procedures"/>
+        <rdfs:comment>Vaccination is the administration of a vaccine to help the immune system develop immunity from a disease. Vaccines contain a microorganism or virus in a weakened, live or killed state, or proteins or toxins from the organism. In stimulating the body&apos;s adaptive immunity, they help prevent sickness from an infectious disease
+.
+							 
+Resource: https://en.wikipedia.org/wiki/Vaccination
+
+Justification: Classification based on different categories of vaccines</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Vaccum_aspiration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Vaccum_aspiration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Abortion"/>
+        <rdfs:comment>Vacuum or suction aspiration is a procedure that uses a vacuum source to remove an embryo or fetus through the cervix.
+
+Resource: https://en.wikipedia.org/wiki/Vacuum_aspiration</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Vascular_Dysfunction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Vascular_Dysfunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Vascular_Imaging"/>
+        <rdfs:comment>Vascular dysfunction includes dysfunction of large arteries(due to arterial stiffness). Imaging is used to identify the dysfunction.
+
+Resource: https://www.sciencedirect.com/science/article/abs/pii/S1872931216302526#:~:text=Vascular%20dysfunction%20includes%20dysfunction%20of,and%20endothelium%20(endothelial%20dysfunction).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Vascular_Imaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Vascular_Imaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>Vascular imaging is used to evaluate blood vessels – with the exception of the coronary arteries, which are assessed with a CT scan and help diagnose conditions associated with abnormal blood flow. 
+
+Resource: https://www.brighamandwomens.org/heart-and-vascular-center/procedures/vascular-imaging</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Vascular_surgery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Vascular_surgery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Surgical_treatment"/>
+        <rdfs:comment>Vascular surgery is a surgical subspecialty in which diseases of the vascular system, or arteries, veins and lymphatic circulation, are managed by medical therapy, minimally-invasive catheter procedures and surgical reconstruction.
+
+Resource: https://en.wikipedia.org/wiki/Vascular_surgery</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Vestibular_rehabilitation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Vestibular_rehabilitation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Physical_therapy"/>
+        <rdfs:comment>Vestibular rehabilitation is an exercise-based program, designed by a specialty-trained vestibular physical therapist, to improve balance and reduce problems related to dizziness
+.
+
+Resource: https://my.clevelandclinic.org/health/treatments/15298-vestibular-rehabilitation#:~:text=What%20is%20vestibular%20rehabilitation%3F,reduce%20problems%20related%20to%20dizziness
+
+Justification: Based on different exercises</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Vision_stability_training -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Vision_stability_training">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Vestibular_rehabilitation"/>
+        <rdfs:comment>The aim of this exercise is to turn your head but to keep your eyes fixed on one spot i.e. your thumb or X on the wall. It improves your vision.
+
+Resource: https://earandbalance.co.uk/vor-exercise-gaze-stabilisation-exercises/#:~:text=The%20aim%20of%20the%20exercise,for%20one%20to%20two%20weeks.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Visual_test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Visual_test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Urine_test"/>
+        <rdfs:comment>A lab technician examines the urine&apos;s appearance. Urine is typically clear. Cloudiness or an unusual odor can indicate a problem, such as an infection. Protein in urine can make it appear foamy.
+
+Resource: https://www.mayoclinic.org/tests-procedures/urinalysis/about/pac-20384907#:~:text=Visual%20exam,-A%20lab%20technician&amp;text=Urine%20is%20typically%20clear.,it%20look%20red%20or%20brown.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Vitamin_B12_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Vitamin_B12_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>Vitamin B12 testing measures the level of vitamin B12 in your blood. Having a vitamin B12 deficiency, or a low level of this essential vitamin, can cause a range of health issues, including anemia and nervous system problems.
+
+Resource: https://www.testing.com/tests/vitamin-b12/#:~:text=Vitamin%20B12%20testing%20measures%20the,anemia%20and%20nervous%20system%20problems.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Vitamin_D_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Vitamin_D_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>A vitamin D test measures the level of vitamin D in your blood to make sure you have enough for your body to work well. Vitamin D is essential for healthy bones and teeth. It also helps keep your muscles, nerves, and immune system working normally.
+
+Resource: https://medlineplus.gov/lab-tests/vitamin-d-test/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Wound_Imaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Wound_Imaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Vascular_Imaging"/>
+        <rdfs:comment>Wound Imaging technique is used to measure various wound parameters, including wound size, wound depth, blood flow, temperature, inflammation, and infection. Importantly, imaging databases can help improve the study of wound pathogenesis and, perhaps, help develop better and effective wound treatments.
+
+Resource: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7099416/#:~:text=Imaging%20techniques%20can%20provide%20measurements,better%20and%20effective%20wound%20treatments.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#X_rays -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#X_rays">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>An x-ray scan, also called radiography, is a diagnostic imaging technique that produces images of bones, providing clear detail of the bony structure.
+
+Resource: https://www.spine-health.com/glossary/x-ray-scan#:~:text=An%20x%2Dray%20scan%2C%20also,detail%20of%20the%20bony%20structure.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Yellowfever_vaccine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Yellowfever_vaccine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Live-attenuated_vaccinations"/>
+        <rdfs:comment>Yellow fever vaccine is a vaccine that protects against yellow fever. A single dose provides lifelong protection for most people. · The vaccine is a live, weakened form of the virus given as a single shot.
+
+Resource: https://en.wikipedia.org/wiki/Yellow_fever_vaccine</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#angiocardiography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#angiocardiography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>Angiocardiography is the radiographic visualization of the heart and its blood vessels after injection of a radiopaque substance.
+
+Resource: https://www.merriam-webster.com/dictionary/angiocardiography#:~:text=Definition%20of%20angiocardiography,injection%20of%20a%20radiopaque%20substance</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#angiography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#angiography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>Angiography is a medical imaging technique used to visualize the inside, or lumen, of blood vessels and organs of the body, with particular interest in the arteries, veins, and the heart chambers.
+
+Resource: https://en.wikipedia.org/wiki/Angiography</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#brain_scanning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#brain_scanning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Breast_imaging"/>
+        <rdfs:comment>Brain scanning is a diagnostic method for detecting intracranial abnormalities (pressure in the brain). There are different types of brain scanning.
+
+Resource: https://www.britannica.com/science/brain-scanning</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#cardiac_magnetic_resonance_imaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#cardiac_magnetic_resonance_imaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#magnetic_resonance_imaging"/>
+        <rdfs:comment>Cardiac magnetic resonance imaging is a magnetic resonance imaging technology used for non-invasive assessment of the function and structure of the cardiovascular system. Conditions in which it is performed include congenital heart disease, cardiomyopathies and valvular heart disease, diseases of the aorta such as dissection, aneurysm and coarctation, coronary heart disease and it can be used to look at pulmonary veins.
+
+Resource: https://en.wikipedia.org/wiki/Cardiac_magnetic_resonance_imaging</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#cerebral_angiography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#cerebral_angiography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#angiography"/>
+        <rdfs:comment>Cerebral angiography is a procedure that uses a special dye (contrast material) and x-rays to see how blood flows through the brain.
+
+Resource: https://medlineplus.gov/ency/article/003799.htm</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#cholecystography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#cholecystography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>A cholecystogram is an x-ray procedure used to help evaluate the gallbladder. For the procedure, a special diet is consumed prior to the test and contrast tablets are also swallowed to help visualize the gallbladder on x-ray. 
+
+Resource: https://medlineplus.gov/ency/imagepages/9709.htm#:~:text=A%20cholecystogram%20is%20an%20x,the%20gallbladder%20on%20x%2Dray.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#computed_tomography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#computed_tomography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#tomography"/>
+        <rdfs:comment>A computed tomography scan is a medical imaging technique used to obtain detailed internal images of the body. The personnel that perform CT scans are called radiographers or radiology technologists.
+
+Resource: https://en.wikipedia.org/wiki/CT_scan</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#covid-19_vaccinations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#covid-19_vaccinations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#mRNA_vaccinations"/>
+        <rdfs:comment>A COVID‑19 vaccine is a vaccine intended to provide acquired immunity against severe acute respiratory syndrome coronavirus 2 (SARS‑CoV‑2), the virus that causes coronavirus disease 2019 (COVID‑19).
+
+Resource: https://en.wikipedia.org/wiki/COVID-19_vaccine</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#echocardiography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#echocardiography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>An echocardiography, echocardiogram, cardiac echo or simply an echo, is an ultrasound of the heart. It is a type of medical imaging of the heart, using standard ultrasound or Doppler ultrasound.
+
+Resource: https://en.wikipedia.org/wiki/Echocardiography</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#echoencephalography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#echoencephalography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#brain_scanning"/>
+        <rdfs:comment>Echoencephalography method for detecting abnormalities within the cranial cavity, based on the reflection of high-frequency sound pulses delivered to the head through a probe held firmly to the scalp. 
+
+Resource: https://www.britannica.com/science/echoencephalography</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#endoscopic_retrograde_cholangiopancreatoscopy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#endoscopic_retrograde_cholangiopancreatoscopy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>Endoscopic retrograde cholangiopancreatoscopy this procedure is used to diagnose and treat problems in the pancreas. These problems may be in the duct or in the pancreas itself.
+
+Resource: https://www.cincinnatichildrens.org/health/e/ercp</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#functional_magnetic_resonance_imaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#functional_magnetic_resonance_imaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#magnetic_resonance_imaging"/>
+        <rdfs:comment>Functional magnetic resonance imaging or functional MRI (fMRI) measures brain activity by detecting changes associated with blood flow. This technique relies on the fact that cerebral blood flow and neuronal activation are coupled. When an area of the brain is in use, blood flow to that region also increases.
+
+Resource: https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#mRNA_vaccinations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#mRNA_vaccinations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Vaccinations"/>
+        <rdfs:comment>An mRNA vaccine is a type of vaccine that uses a copy of a molecule called messenger RNA (mRNA) to produce an immune response. mRNA vaccines have several benefits compared to other types of vaccines, including shorter manufacturing times and, because they do not contain a live virus, no risk of causing disease in the person getting vaccinated
+.
+							 
+Resource: https://en.wikipedia.org/wiki/MRNA_vaccine
+
+Justification: Based on number of doses taken</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#magnetic_resonance_imaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#magnetic_resonance_imaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>Magnetic resonance imaging (MRI) is a medical imaging technique used in radiology to form pictures of the anatomy and the physiological processes of the body.
+
+Resource: https://en.wikipedia.org/wiki/Magnetic_resonance_imaging#:~:text=Magnetic%20resonance%20imaging%20(MRI)%20is,the%20organs%20in%20the%20body.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#magnetic_resonance_spectroscopy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#magnetic_resonance_spectroscopy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#magnetic_resonance_imaging"/>
+        <rdfs:comment>Magnetic Resonance (MR) spectroscopy is a noninvasive diagnostic test for measuring biochemical changes in the brain, especially the presence of tumors.
+
+Resource: https://mayfieldclinic.com/pe-mrspectroscopy.htm#:~:text=Magnetic%20Resonance%20(MR)%20spectroscopy%20is,especially%20the%20presence%20of%20tumors.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#magnetoencephalography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#magnetoencephalography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#brain_scanning"/>
+        <rdfs:comment>Magnetoencephalography (MEG) is the measurement of the magnetic field generated by the electrical activity of neurons. It is usually combined with a magnetic resonance imaging to get what is called magnetic source imaging
+
+Resource: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4001219/#:~:text=Magnetoencephalography%20(MEG)%20is%20the%20measurement,is%20called%20magnetic%20source%20imaging.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#mammography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#mammography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>Mammography (also called mastography) is the process of using low-energy X-rays  to examine the human breast for diagnosis and screening. The goal of mammography is the early detection of breast cancer, typically through detection of characteristic masses or microcalcifications.
+
+Resource: https://en.wikipedia.org/wiki/Mammography</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#myelography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#myelography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>A myelogram is a diagnostic imaging test generally done by a radiologist. It uses a contrast dye and X-rays or computed tomography (CT) to look for problems in the spinal canal. Problems can develop in the spinal cord, nerve roots, and other tissues. This test is also called myelography.
+
+Resource: https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/myelogram#:~:text=What%20is%20a%20myelogram%3F,test%20is%20also%20called%20myelography.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#pneumoencephalography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#pneumoencephalography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#brain_scanning"/>
+        <rdfs:comment>Pneumoencephalography was a common medical procedure in which most of the cerebrospinal fluid (CSF) was drained from around the brain by means of a lumbar puncture and replaced with air, oxygen, or helium to allow the structure of the brain to show up more clearly on an X-ray image.
+
+Resource: https://en.wikipedia.org/wiki/Pneumoencephalography#:~:text=Pneumoencephalography%20(sometimes%20abbreviated%20PEG%3B%20also,brain%20to%20show%20up%20more</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#positron_emission_tomography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#positron_emission_tomography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#tomography"/>
+        <rdfs:comment>Positron emission tomography (PET) is a functional imaging technique that uses radioactive substances known as radiotracers to visualize and measure changes in metabolic processes, and in other physiological activities including blood flow, regional chemical composition, and absorption.
+
+Resource: https://en.wikipedia.org/wiki/Positron_emission_tomography</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#prenatal_testing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#prenatal_testing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>Prenatal testing consists of prenatal screening and prenatal diagnosis, which are aspects of prenatal care that focus on detecting problems with the pregnancy as early as possible.
+
+Resource: https://en.wikipedia.org/wiki/Prenatal_testing</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#single_photon_emission_computed_tomography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#single_photon_emission_computed_tomography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#tomography"/>
+        <rdfs:comment>Single-photon emission computed tomography (SPECT, or less commonly, SPET) is a nuclear medicine tomographic imaging technique using gamma rays. It is very similar to conventional nuclear medicine planar imaging using a gamma camera but is able to provide true 3D information.
+
+Resource: https://en.wikipedia.org/wiki/Single-photon_emission_computed_tomography</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#tomography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#tomography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>Tomography is imaging by sections or sectioning that uses any kind of penetrating wave. In many cases, the production of these images is based on the mathematical procedure tomographic reconstruction, such as X-ray computed tomography technically being produced from multiple projectional radiographs.
+
+Resource: https://en.wikipedia.org/wiki/Tomography</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#treat_choking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#treat_choking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#First_aid"/>
+        <rdfs:comment>Choking can be treated by bending the person well forward and give five back blows with the heel of your hand between their shoulderblades – checking if the blockage has been removed after each blow.
+
+Resource: https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/choking</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#treating_wound -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#treating_wound">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#First_aid"/>
+        <rdfs:comment>A wound is any type of injury that breaks the skin, and severity can range from a small cut to a deep puncture wound. So treating a wound can be done by cleaning and performing dressing to the wound.
+
+Resource: https://www.skinsight.com/skin-conditions/first-aid/first-aid-wounds</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#ultrasound -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#ultrasound">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#tomography"/>
+        <rdfs:comment>Diagnostic ultrasound, also called sonography or diagnostic medical sonography, is an imaging method that uses sound waves to produce images of structures within your body. The images can provide valuable information for diagnosing and directing treatment for a variety of diseases and conditions.
+
+Resource: https://www.mayoclinic.org/tests-procedures/ultrasound/about/pac-20395177#:~:text=Diagnostic%20ultrasound%2C%20also%20called%20sonography,variety%20of%20diseases%20and%20conditions.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#urography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#urography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>Urography uses imaging and contrast material to evaluate or detect blood in urine, kidney or bladder stones, and cancer in the urinary tract. Urography with conventional x-ray is known as intravenous pyelogram 
+
+Resource: https://www.radiologyinfo.org/en/info/urography#:~:text=Urography%20uses%20imaging%20and%20contrast,magnetic%20resonance%20imaging%20(MRI).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Alkaline_Phosphatase_(ALP)_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Alkaline_Phosphatase_(ALP)_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>An alkaline phosphatase (ALP) test measures the amount of ALP in your blood. ALP is an enzyme found in many parts of your body. Each part of your body produces a different type of ALP.						
+ 
+Resource: https://medlineplus.gov/lab-tests/alkaline-phosphatase/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#CBC_/_Hemogram_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#CBC_/_Hemogram_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>Hemogram test or complete hemogram test is a group of test performed on a sample of blood. Hemogram serves as broad screening panel that checks for the presence of any diseases and infections in the body. Hemogram tests mainly the three components of the blood namely Red Blood Cells, White Blood Cells and Platelets. 
+
+Resource: https://www.portea.com/labs/diagnostic-tests/haemogram-219/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#Liver_Function_Test_(LFT) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#Liver_Function_Test_(LFT)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>Liver function tests (also called LFTs) are blood tests that can provide information about how the liver is working. They test the levels of a number of proteins and enzymes that are either produced by liver cells or released into the blood when liver cells are damaged.
+
+Resource: https://www.healthdirect.gov.au/liver-function-tests#:~:text=More%20information-,What%20is%20being%20tested%3F,when%20liver%20cells%20are%20damaged.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#T3_(Triiodothyronine)_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#T3_(Triiodothyronine)_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>This test measures the level of triiodothyronine (T3) in your blood. T3 is one of two major hormones made by your thyroid, a small, butterfly-shaped gland located near the throat. 
+
+Resource: https://medlineplus.gov/lab-tests/triiodothyronine-t3-tests/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#T4_(Thyroxine)_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#T4_(Thyroxine)_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>A thyroxine test is a blood test that helps diagnose thyroid conditions. The thyroid is a small, butterfly-shaped gland at the base of your throat. Your thyroid makes hormones that control the way your body uses energy. These hormones affect your weight, heart, body temperature, muscle strength, and even your mood.
+
+Resource: https://medlineplus.gov/lab-tests/thyroxine-t4-test/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#TSH_(Thyroid_Stimulating_Hormone)_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#TSH_(Thyroid_Stimulating_Hormone)_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Lab_tests"/>
+        <rdfs:comment>TSH stands for “thyroid stimulating hormone” and the test measures how much of this hormone is in your blood. A TSH test is done to find out if your thyroid gland is working the way it should. It can tell you if it’s overactive (hyperthyroidism) or underactive (hypothyroidism). The test can also detect a thyroid disorder before you have any symptoms.
+
+Resource: https://www.webmd.com/women/what-is-tsh-test</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/medicaltreatments#lung_ventilation/perfusion_scan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/medicaltreatments#lung_ventilation/perfusion_scan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/medicaltreatments#Medical_imaging"/>
+        <rdfs:comment>A pulmonary ventilation/perfusion scan involves two nuclear scan tests to measure breathing (ventilation) and circulation (perfusion) in all areas of the lungs.
+
+Resource: https://medlineplus.gov/ency/article/003828.htm</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
